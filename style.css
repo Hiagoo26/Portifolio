@@ -8,7 +8,7 @@
 /* Variaveis */
 :root {
     --background: #161615;
-    --primary: #9D00FF;
+    --primary: #FFFFFF;
     --font: roboto;
 }
 
@@ -24,11 +24,13 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 500px;
     align-items: center;
     color: var(--primary);
     margin: auto;
     border-bottom: 3px solid var(--primary);
+    z-index: 1;
+    background-color: var(--background);
 }
 
 .header > h1 {
@@ -60,7 +62,7 @@ body {
     top: 100%;
     height: 2px;
     width: 0;
-    background-color: white;
+    background-color: gray;
     transition: width 0.3s ease, left 0.3s ease;
 }
 
@@ -70,6 +72,53 @@ body {
 }
 
 .a-links:hover {
-    color: white;
+    color: gray;
     transition: 1s;
+}
+
+/*Sobre Mim*/
+section {
+    min-height: 100vh;
+    padding: 10rem 10%;
+}
+.sobre {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*Sobre texto*/
+.sobre-texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.sobre-texto > h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+.sobre-texto > p {
+    width: 90%;
+    text-align: justify;
+}
+
+/*Sobre Img*/
+.sobre-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-img > img {
+    width: 450px;
+    height: 450px;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+
 }
