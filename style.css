@@ -137,8 +137,8 @@ section {
 }
 
 .itens {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 20px;
 }
 
@@ -149,7 +149,8 @@ section {
     border: 4px solid var(--corapagada);
     color: var(--corapagada);
     text-align: justify;
-    margin: 0px 10px;
+    margin: 15px 10px;
+    
 }
 
 /*Html*/
@@ -185,6 +186,40 @@ section {
 .css:hover {
     border-color: #663399;
     color: #663399;
+    scale: 1.05;
+}
+
+/*JS*/
+
+.js {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    transition: 2s;
+}
+
+.js:hover {
+    border-color: #F7DF1E;
+    color: #F7DF1E;
+    scale: 1.05;
+}
+
+/*React Native*/
+
+.react {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    transition: 2s;
+}
+
+.react:hover {
+    border-color: #00D8FF;
+    color: #00D8FF;
     scale: 1.05;
 }
 
