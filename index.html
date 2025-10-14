@@ -5,60 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Portifólio</title>
+    <title>Portifólio | Hiago</title>
 </head>
 <body>
     <header class="header">
-        <h1>Meu Portifólio</h1>
+        <a href="#" class="logo">Meu Portfólio</a>
         <nav class="links">
             <a href="#sobremim" class="a-links">Sobre Mim</a>
-            <a href="#habili" class="a-links">Habilidades</a>
-            <a href="" class="a-links">Projetos</a>
-            <a href="" class="a-links">Contato</a>
+            <a href="#habilidades" class="a-links">Habilidades</a>
+            <a href="#projetos" class="a-links">Projetos</a>
+            <a href="#contato" class="a-links">Contato</a>
         </nav>
     </header>
-    <section class="sobre" id="sobremim">
-        <div class="sobre-texto">
-        <h1>Sobre mim</h1>
-        <p>Olá me chamo Hiago, estudante de ADS(Análise e Desenvolvimento de Sistemas), estou em busca de uma oportunidade para ingressar no mercado de tecnologia.
-        Atualmente focado em desenvolvimento front-end, com experiencias em HTML, CSS, JAVASCRIPT e alguns frameworks como React Native e VUE.</p>
-        </div>
-        <div class="sobre-img"">
-            <div class="div-img">
-                <img src="assets/images/eu.jpg" alt="Nataly e Eu">
+
+    <main>
+        <section class="sobre" id="sobremim">
+            <div class="sobre-texto">
+                <h1>Sobre mim</h1>
+                <p>Olá! Me chamo Hiago, estudante de Análise e Desenvolvimento de Sistemas em busca de uma oportunidade para ingressar no mercado de tecnologia. Atualmente focado em desenvolvimento front-end, com experiências em HTML, CSS, JavaScript e frameworks como React Native e Vue.</p>
             </div>
-        </div>
-    </section>
-    <section class="habilidades" id="habili">
-        <h1>Habilidades</h1>
-        <div class="itens">
-            <div class="html">
-                <i class="fa-brands fa-html5"></i>
-                <h3>HTML</h3>
-                <p>HyperText Markup Language (Linguagem de Marcação de Hipertexto), a linguagem padrão utilizada para criar e estruturar o conteúdo de páginas web, como textos, imagens e links.</p>
+            <div class="sobre-img">
+                <div class="div-img">
+                    <img src="assets/images/eu.jpg" alt="Foto de Hiago">
+                </div>
             </div>
-            <div class="css">
-                <i class="fa-brands fa-css3"></i> <!--Icon novo bugou, vai o antigo...-->
-                <h3>CSS</h3>
-                <p>CSS, a sigla para Cascading Style Sheets (Folhas de Estilo em Cascata), é a linguagem que dá vida, cor e forma à internet. Se o HTML é o esqueleto de uma página web, fornecendo a estrutura e o conteúdo, o CSS é a pele, as roupas e a personalidade, definindo toda a estética visual.</p>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <h1>Habilidades</h1>
+            <div class="itens">
+                <div class="skill-card html">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Linguagem de marcação para criar e estruturar o conteúdo de páginas web, como textos, imagens e links.</p>
+                </div>
+                <div class="skill-card css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Linguagem para estilizar a aparência de uma página, definindo cores, fontes, layouts e animações.</p>
+                </div>
+                <div class="skill-card js">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Linguagem de programação que adiciona interatividade e comportamento dinâmico às páginas web.</p>
+                </div>
+                <div class="skill-card react">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React Native</h3>
+                    <p>Framework para criar aplicativos para iOS e Android usando uma única base de código em JavaScript e React.</p>
+                </div>
             </div>
-            <div class="js">
-                <i class="fa-brands fa-js"></i>
-                <h3>JS</h3>
-                <p>JavaScript, ou simplesmente JS, é a linguagem de programação que adiciona interatividade e comportamento às páginas web. Se o HTML é o esqueleto e o CSS é a aparência, o JavaScript é o sistema nervoso e os músculos, permitindo que a página reaja às ações do usuário e se torne dinâmica.</p>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <h1>Projetos</h1>
+            <p>Em breve, meus projetos estarão aqui!</p>
+        </section>
+
+        <section class="contato" id="contato">
+            <h1>Contato</h1>
+            <p>Você pode me encontrar nas redes abaixo:</p>
+            <div class="social-links">
+                 <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                 <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="react">
-                <i class="fa-brands fa-react"></i>
-                <h3>REACT NATIVE</h3>
-                <p>React Native é um framework criado pelo Facebook (agora Meta) que revolucionou o desenvolvimento de aplicativos para celular. Sua principal promessa é permitir que desenvolvedores criem aplicativos para iOS e Android usando uma única base de código, escrita em JavaScript e utilizando a biblioteca React.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Hiago.</p>
+    </footer>
+
 </body>
 </html>
-
-<!-- Pra depois 
- <i class="fa-brands fa-linkedin"></i>
- <i class="fa-brands fa-github"></i>
- <i class="fa-brands fa-instagram"></i>
--->
